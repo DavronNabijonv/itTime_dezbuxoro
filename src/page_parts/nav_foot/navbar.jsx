@@ -54,7 +54,7 @@ export default function Navbar() {
           <div
             className={`lg:w-auto flex justify-around items-center lg:gap-[10px] gap-[5px]`}
           >
-            <div className="nav_link_group bg-white flex lg:gap-[20px] md:gap-[8px]">
+            <div className="nav_link_group bg-white flex items-center lg:gap-[20px] md:gap-[8px]">
               <LinkGroup />
             </div>
 
@@ -102,9 +102,9 @@ export default function Navbar() {
                 <div className="toggle_item3"></div>
               </div>
               <div className=" flex flex-col gap-[20px] pl-[30px] ">
-                <LinkGroup />
+                <LinkGroup togle_func={changeToggler} />
               </div>
-              <ConnectionBtn id_name="togle_navbar_btn" />
+              <ConnectionBtn id_name="togle_navbar_btn" close_togle={changeToggler} />
             </div>
 
             <ConnectionBtn id_name="navbar_btn" />
@@ -116,25 +116,25 @@ export default function Navbar() {
   );
 }
 
-function LinkGroup() {
+function LinkGroup({togle_func}) {
   return (
     <>
-      <Link to='home' smooth={true} duration={500} offset={-200}
+      <Link to='home' smooth={true} duration={500} offset={-200} onClick={togle_func}
         className={`lg:text-[25px]  md:text-[16px] text-[25px] hover:cursor-pointer text-gray-500 hover:text-black`}
       >
         <TextTranslation txt="Asosiy" />
       </Link>
-      <Link to='about' smooth={true} duration={500} offset={-200}
+      <Link to='about' smooth={true} duration={500} offset={-200} onClick={togle_func}
         className={`lg:text-[25px] md:text-[16px] text-[25px] hover:cursor-pointer text-gray-500 hover:text-black`}
       >
         <TextTranslation txt="Biz_xaqimizda" />
       </Link>
-      <Link to='service' smooth={true} duration={500} offset={-200}
+      <Link to='service' smooth={true} duration={500} offset={-200} onClick={togle_func}
         className={`lg:text-[25px] md:text-[16px] text-[25px] hover:cursor-pointer text-gray-500 hover:text-black`}
       >
         <TextTranslation txt="Xizmatlar" />
       </Link>
-      <Link to='faq' smooth={true} duration={500} offset={-200}
+      <Link to='faq' smooth={true} duration={500} offset={-200} onClick={togle_func}
         className={`lg:text-[25px] md:text-[16px] text-[25px] hover:cursor-pointer text-gray-500 hover:text-black`}
       >
         <TextTranslation txt="FAQ" />

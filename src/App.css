@@ -1,28 +1,28 @@
-.container{
-  width: 100%;
-  max-width:1400px;
+.container {
+  width: 95%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
-#navbar_btn{
+#navbar_btn {
   display: flex;
   font-size: 25px;
 }
 
 /* phone type toggle button values */
-.nav_btn{
+.nav_btn {
   font-size: 25px;
   width: 100%;
 }
 
 /* when click togle btn */
-#togle_navbar_btn{
+#togle_navbar_btn {
   width: 100%;
   font-size: 25px;
   text-align: center;
 }
 
-#xizmat_btn{
+#xizmat_btn {
   width: 200px;
   text-align: center;
   font-size: 22px;
@@ -30,31 +30,270 @@
   margin-top: 15px;
 }
 
-#xizmat_turi{
+#xizmat_turi {
   font-size: 20px;
   padding: 8px 28px;
 }
 
+/* all title and titles-txt sizes */
+#titles {
+  font-size: 50px;
+}
+#titles-txt {
+  font-size: 25px;
+}
 
-@media screen and (max-width:1028px) {
-  #navbar_btn{
+/* section home text-size values */
+#home_txt {
+  font-size: 60px;
+}
+
+#home_txt_title {
+  font-size: 20px;
+}
+
+/* about section text-size values */
+#about-title {
+  font-size: 30px;
+}
+#about-txt {
+  font-size: 16px;
+}
+#about-hisob-title {
+  font-size: 35px;
+}
+#about-hisob-txt {
+  font-size: 23px;
+}
+
+/* xizmat section text-size values */
+#xizmat-title {
+  font-size: 30px;
+}
+#xizmat-txt {
+  font-size: 20px;
+}
+#xizmat-img {
+  width: 300px;
+}
+
+/* xizmat turi section styles */
+#xizmat-turi-div {
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  gap: 20px;
+}
+#xizmat-turi-title{
+  font-size: 28px;
+  font-weight: 700;
+}
+#xizmat-turi-txt{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* litsenziya styles */
+#litsenziya-txt{
+  font-size: 30px;
+}
+#litsenziya-btn{
+  font-size: 23px;
+  width: 200px;
+}
+#litsenziya-img{
+  width: 48%;
+}
+#litsenziya-div{
+  width: 45%;
+}
+
+/* FAQ text styles */
+#faq-savol{
+  font-size: 35px;
+}
+#faq-javob{
+  font-size: 20px;
+}
+
+/* connect text styles */
+#connect-title{
+  font-size: 35px;
+}
+#connect-title-txt{
+  font-size: 20px;
+}
+
+@media (max-width: 1300px) {
+  #home_txt {
+    font-size: 50px;
+  }
+
+  #home_txt_title {
+    font-size: 18px;
+  }
+}
+
+@media(max-width:1200px){
+  #xizmat-turi-div{
+    grid-template-columns: repeat(2,2fr);
+  }
+}
+
+/* litsenziya styles */
+@media(max-width:1070px){
+  #litsenziya-txt{
+    font-size: 25px;
+  }
+  #litsenziya-btn{
+    font-size: 20px;
+    width: 200px;
+  }
+  #litsenziya-img{
+    width: 350px;
+    height: 100%;
+  }
+  #litsenziya-div{
+    width: auto;
+  }
+  #litsenziya-img-icon{
+    width: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #home_txt {
+    font-size: 30px;
+  }
+
+  #home_txt_title {
     font-size: 16px;
   }
 }
 
-@media (max-width:835px){
-  .logo_img{
+@media screen and (max-width: 1028px) {
+  #navbar_btn {
+    font-size: 16px;
+  }
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1028px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 835px) {
+  .logo_img {
     width: 200px;
   }
 }
 
-@media(max-width:768px){
-  #navbar_btn{
+/* another css and xizmat section text alignment values */
+@media (max-width: 768px) {
+  #navbar_btn {
     display: none;
   }
 
-  #home_txt{
+  #home_txt,
+  #home_txt_title {
     color: white;
+  }
+
+  #xizmat-title,
+  #xizmat-txt {
+    text-align: center;
+  }
+}
+
+/* xizmat turi div styles  */
+@media(max-width:730px){
+  #xizmat-turi-div{
+    grid-template-columns: repeat(1,2fr);
+  }
+}
+
+/* FAQ text styles */
+@media(max-width:570px){
+  #faq-savol{
+    font-size: 25px;
+  }
+  #faq-javob{
+    font-size: 20px;
+  }
+}
+
+/* about section txt size */
+@media (max-width: 500px) {
+  #about-hisob-title {
+    font-size: 20px;
+  }
+  #about-hisob-txt {
+    font-size: 16px;
+  }
+
+  #xizmat_btn {
+    width: 150px;
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+
+  #xizmat-title {
+    font-size: 23px;
+  }
+  #xizmat-txt {
+    font-size: 16px;
+  }
+
+  #xizmat-img {
+    width: 200px;
+  }
+}
+
+/* home section txt size */
+@media (max-width: 400px) {
+  #home_txt {
+    font-size: 23px;
+  }
+  #home_txt_title {
+    font-size: 14px;
+  }
+
+  /* litsenziya styles */
+  #litsenziya-txt{
+    font-size: 20px;
+  }
+  #litsenziya-btn{
+    font-size: 17px;
+    width: 180px;
+  }
+}
+
+/* connect text styles */
+@media(max-width:350px){
+  #connect-title{
+    font-size: 23px;
+  }
+  #connect-title-txt{
+    font-size: 18px;
+  }
+}
+
+/* xizmat and FAQ styles */
+@media (max-width: 330px) {
+  #xizmat-img {
+    width: 150px;
+  }
+
+  #faq-savol{
+    font-size: 20px;
+  }
+  #faq-javob{
+    font-size: 16px;
   }
 
 }

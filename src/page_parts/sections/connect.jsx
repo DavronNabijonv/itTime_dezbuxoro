@@ -36,15 +36,15 @@ export default function Connect() {
   const { t } = useTranslation();
   
   return (
-    <div className="connect my-[80px] md:m-[0] sm:mx-[10px] sm:px-[30px]">
+    <div className="connect my-[80px] ">
       <div className="container">
         <div className="connect_group w-full rounded-[18px]">
           <div className="connect_for_image w-full flex md:justify-start justify-center">
-            <div className="connect_left sm:w-[400px] w-[100vw] md:ml-[20vw] m-[20px] flex flex-col gap-[20px] bg-white rounded-[18px] px-[25px] py-[40px]">
-              <Text f_size="text-[30px]" f_weight="font-[700]">
+            <div className="connect_left sm:w-[400px] w-[90vw] md:ml-[20vw] m-[20px] flex flex-col gap-[20px] bg-white rounded-[18px] px-[25px] py-[40px]">
+              <Text id_name='connect-title' f_weight="font-[700]">
                 <TextTranslation txt="malumot" />
               </Text>
-              <Text f_size="text-[20px]" f_weight="font-[400]">
+              <Text id_name='connect-title-txt' f_weight="font-[400]">
                 <TextTranslation txt="malumot" />
               </Text>
               <form className="flex flex-col gap-[10px]" onSubmit={sendMessage}>
@@ -65,7 +65,7 @@ export default function Connect() {
                 <input
                   type="submit"
                   value="Yuborish"
-                  className="w-[90%] bg-green-700 text-white text-[18px] rounded-[5px] py-[5px]"
+                  className="w-[100%] bg-green-700 text-white text-[18px] rounded-[5px] py-[5px]"
                 />
               </form>
             </div>

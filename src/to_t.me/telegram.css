@@ -1,0 +1,14 @@
+@keyframes pop_up {
+    from {
+      box-shadow: 1px 1px 5px 0px green;  /* Softer shadow */
+    }
+    to {
+      box-shadow: 15px 150px 20px 5px green; /* More prominent effect */
+    }
+  }
+  
+  #animation {
+    border-radius: 50%;
+    animation: pop_up 1s infinite alternate ease-in-out; /* Smoother transition */
+  }
+  

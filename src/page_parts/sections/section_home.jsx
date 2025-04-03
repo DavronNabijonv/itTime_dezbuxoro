@@ -10,9 +10,9 @@ import Animation from "../../components/animation";
 
 export default function Section_home() {
   return (
-    <div id="home" className="homeSection md:my-[0] mt-[120px] 2xl:px-[0] xl:px-[20px] sm:px-[10px] px-[5px] ">
+    <div id="home" className="homeSection md:mt-[12vw] mt-[22vh] ">
       <div className="container">
-        <div className={`w-full flex mt-[10vw]`}>
+        <div className={`w-full flex px-[20px] xl:mx-[0] items-center justify-between `}>
           <div className=" homeSection_left md:w-[50%] py-[20px] flex flex-col gap-[20px] ">
             <Animation>
               <p className="title">
@@ -29,7 +29,7 @@ export default function Section_home() {
             </Animation>
             <Animation>
               <p className="title_text w-[70%]">
-                <Text f_size="text-[22px]" id_name="home_txt">
+                <Text f_size="text-[22px]" id_name="home_txt_title">
                   <TextTranslation txt="Xizmat_txt" />
                 </Text>
               </p>
