@@ -1,0 +1,60 @@
+
+.hisob_card{
+    background-image: url(../../assets/clean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.hisob_card .hisob_opacity{
+    background-image: linear-gradient(to right, #ffffff77, #01ff41a9);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 100px 130px;
+}
+
+.litsenziya_grp {
+    background-image: linear-gradient(to bottom, rgb(168, 248, 168), rgb(12, 204, 12));
+}
+
+.connect_group{
+    background-image: linear-gradient(to bottom, rgb(168, 248, 168), rgb(12, 204, 12));
+}
+
+.connect_for_image{
+    background-image: url(../../assets/connect.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:768px){
+    .homeSection_left{
+        background-image: url(../../assets/phone.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        border-radius: 18px;
+        padding-left: 20px;
+    }
+    .homeSection_right{
+        display: none;
+    }
+
+    .hisob_card .hisob_opacity{
+        padding: 50px;
+        justify-content: center;
+    }
+}
+
+@media(max-width:425px){
+    .connect_for_image{
+        background-position: center right;
+    }
+
+    .hisob_card .hisob_opacity{
+        padding: 10px;
+        justify-content: center;
+    }
+
+}
