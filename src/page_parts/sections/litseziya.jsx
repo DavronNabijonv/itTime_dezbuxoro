@@ -1,5 +1,6 @@
 import React from "react";
 import "./sections.css";
+import { Link } from "react-scroll";
 
 // images
 import clear from "../../assets/official.jpg";
@@ -19,7 +20,10 @@ export default function Litseziya() {
             className=" md:flex hidden rounded-[18px] "
             alt="clear image"
           />
-          <div id="litsenziya-div" className="litsenziya_right flex flex-col gap-[30px] ">
+          <div
+            id="litsenziya-div"
+            className="litsenziya_right flex flex-col gap-[30px] "
+          >
             <img
               id="litsenziya-img-icon"
               src={icon}
@@ -34,12 +38,14 @@ export default function Litseziya() {
             >
               <TextTranslation txt="kafolat" />
             </Text>
-            <button
-              id="litsenziya-btn"
-              className="border-none rounded-[25px] font-[800] bg-white text-black py-[8px] px-[16px]"
-            >
-              <TextTranslation txt="Bog`lanish" />
-            </button>
+            <Link to="connect" smooth={true} duration={500} offset={-200}>
+              <button
+                id="litsenziya-btn"
+                className="border-none rounded-[25px] font-[800] bg-white text-black py-[8px] px-[16px]"
+              >
+                <TextTranslation txt="Bog`lanish" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

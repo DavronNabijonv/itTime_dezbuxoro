@@ -1,6 +1,5 @@
 import React from "react";
 import { PiTelegramLogo } from "react-icons/pi";
-import "./telegram.css";
 
 export default function Telegram() {
   return (

@@ -30,9 +30,9 @@ export default function Footer() {
                 <button className="border-[2px] border-gray-300 rounded-[8px] pt-[10px] p-[8px] text-[18px]">
                   <CiLocationOn />
                 </button>
-                <Text f_size="text-[20px]" f_weight={"medium"}>
-                  {" "}
-                  <TextTranslation txt="shahar" />{" "}
+                <Text id_name='footer-txt' f_weight={"medium"}>
+              
+                  <TextTranslation txt="shahar" />
                 </Text>
                 <FiArrowUpRight className="text-[20px] font-bold" />
               </div>
@@ -40,8 +40,8 @@ export default function Footer() {
                 <button className="border-[2px] border-gray-300 rounded-[8px] pt-[10px] p-[8px] text-[18px]">
                   <FiPhone />
                 </button>
-                <Text f_size="text-[20px]" f_weight={"medium"}>
-                  {" "}
+                <Text id_name='footer-txt' f_weight={"medium"}>
+              
                   +998 94 033 72 12{" "}
                 </Text>
                 <FiArrowUpRight className="text-[20px] font-bold" />
