@@ -65,7 +65,7 @@ export default function Connect() {
                 />
                 <input
                   type="submit"
-                  value="Yuborish"
+                  value={t("yuborish")}
                   className="w-[100%] bg-green-700 text-white text-[18px] rounded-[5px] py-[5px]"
                 />
               </form>

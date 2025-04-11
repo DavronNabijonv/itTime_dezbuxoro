@@ -46,12 +46,14 @@
         padding: 50px;
         justify-content: center;
     }
+    .connect_for_image{
+        background-image: none;
+        background-position: center right;
+    }
 }
 
 @media(max-width:425px){
-    .connect_for_image{
-        background-position: center right;
-    }
+    
 
     .hisob_card .hisob_opacity{
         padding: 10px;
