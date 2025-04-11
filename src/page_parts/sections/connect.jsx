@@ -27,6 +27,7 @@ export default function Connect() {
     })
     .then(() => {
       alert("Muvaffaqiyatli yuborildi!!!");
+      event.target.reset(); 
     })
     .catch((error) => {
       console.error("Yuborishda xatolik:", error);
