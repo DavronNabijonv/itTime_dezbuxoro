@@ -13,7 +13,7 @@ import burga from '../../assets/type5.jpg'
 
 export default function Xizmat_turlari() {
   return (
-    <div className="xizmat_turlari my-[150px] ">
+    <div className="xizmat_turlari sm:my-[150px] my-[60px] ">
       <div className="container">
         <div className="flex flex-col gap-[50px]">
           <Text id_name='titles' f_weight="font-[700]" >

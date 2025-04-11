@@ -14,7 +14,7 @@ import kalamush from '../../assets/error3.png';
 
 export default function Xizmatlar() {
   return (
-    <div className="xizmatlar my-[200px] ">
+    <div className="xizmatlar sm:my-[200px] my-[50px] ">
       <div className="container">
         <div className="xizmat w-full flex flex-col gap-[30px]">
           <Animation>

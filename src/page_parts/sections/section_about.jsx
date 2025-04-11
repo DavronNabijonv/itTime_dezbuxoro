@@ -7,9 +7,9 @@ import "./sections.css";
 
 export default function Section_about() {
   return (
-    <div className="about my-[100px] ">
+    <div className="about sm:my-[100px] my-[40px] ">
       <div className="container">
-        <div className="about_title border-b-[1px] pb-[50px] border-gray-600 ">
+        <div className="about_title border-b-[1px] sm:pb-[50px] pb-[20px] border-gray-600 ">
           <Animation>
             <Text id_name='about-title' f_weight="font-[600]">
               <TextTranslation txt="Biz_xaqimizda" />
@@ -124,7 +124,7 @@ export default function Section_about() {
           </Animation>
         </div>
 
-        <div className="hisob my-[120px]">
+        <div className="hisob sm:my-[120px] my-[20px] ">
           <div className="container">
             <div className="hisob_card w-full rounded-[18px]">
               <div className="hisob_opacity w-full rounded-[18px] " >

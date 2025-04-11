@@ -32,7 +32,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="faq my-[150px] ">
+    <div className="faq sm:my-[150px] my-[50px] ">
       <div className="container  ">
         <Animation>
           <Text

@@ -10,7 +10,7 @@ import Animation from "../../components/animation";
 
 export default function Section_home() {
   return (
-    <div id="home" className="homeSection md:mt-[12vw] mt-[22vh] ">
+    <div id="home" className="homeSection md:mt-[12vw] sm:mt-[22vh] mt-[28vh] ">
       <div className="container">
         <div className={`w-full flex px-[20px] xl:mx-[0] items-center justify-between `}>
           <div className=" homeSection_left md:w-[50%] py-[20px] flex flex-col gap-[20px] ">

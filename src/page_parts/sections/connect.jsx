@@ -37,7 +37,7 @@ export default function Connect() {
   const { t } = useTranslation();
   
   return (
-    <div className="connect my-[80px] ">
+    <div className="connect sm:my-[80px] my-[30px] ">
       <div className="container">
         <div className="connect_group w-full rounded-[18px]">
           <div className="connect_for_image w-full flex md:justify-start justify-center">
